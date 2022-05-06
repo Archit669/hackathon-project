@@ -142,7 +142,7 @@ h1,h2,h3{
 }
 
 .header .navbar .nav-items{
-   width: 30%;
+   width: 33%;
    height: 10vh;
    float: right;
    margin-top: 25px;
@@ -159,6 +159,10 @@ h1,h2,h3{
     display: inline-block;
     margin: 10px;
 
+}
+
+.header .navbar .nav-items .btn{
+    border: 2px solid black;
 }
 
 .logo{
