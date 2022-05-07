@@ -132,7 +132,7 @@ h1,h2,h3{
 }
 
 .header .navbar .nav-items{
-   width: 33%;
+   width: 37%;
    height: 10vh;
    float: right;
    margin-top: 25px;
@@ -431,161 +431,73 @@ h1,h2,h3{
 
 }
 
-/* ################## media-queries ############################### */
-
-@media (max-width:500px){
-    html{
-        font-size: 8px;
-    }
-
-    .navbar .nav-items,
-    .navbar .logo{
-        float: none;
-        display: block;
-        text-align: center;
-    }
-
-    .header-content .main-heading{
-        display: none;
-    }
-
-    .row{
-        height: auto;
-        width: 100%;
-    }
-
-    .row .img-box,
-    .row .text-box{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .features .box{
-        float: none;
-        width: 100%;
-        text-align: center;
-        box-shadow: 5px 5px 10px 0px rgba(102, 102, 102, 0.521);
-    }
-
-    .features .box2,
-    .features .box3{
-        margin-top: 7rem;
-    }
-
-    .box-wrapper{
-        box-shadow: none;
-    }
-
-    .cta-banner-left,
-    .cta-banner-right{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .form-wrapper .company-address{
-        float: none;
-        width: 100%;
-        height: auto;
-        margin-bottom: 5rem;
-    }
 
 
-    .form-wrapper .form{
-        float: none;
-        width: 100%;
-        height: auto;
-    }
+/* ########################## donate page styling #####################3 */
 
-
-}
-
-@media(min-width: 501px) and (max-width: 768px){
-    html{
-        font-size: 8px;
-    }
-    p{
-        font-size: 1.8rem;
-    }
-
-
-    .navbar .nav-items,
-    .navbar .logo{
-        float: none;
-        display: block;
-        text-align: center;
-    }
-
-
-
-    .row{
-        height: auto;
-        width: 100%;
-    }
-
-    .row .img-box,
-    .row .text-box{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .features .box{
-        float: none;
-        width: 100%;
-        text-align: center;
-        box-shadow: 5px 5px 10px 0px rgba(102, 102, 102, 0.521);
-    }
-
-    .features .box2,
-    .features .box3{
-        margin-top: 7rem;
-    }
-
-    .box-wrapper{
-        box-shadow: none;
-    }
-
-    .cta-banner-left,
-    .cta-banner-right{
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    .form-wrapper .company-address{
-        float: none;
-        width: 100%;
-        height: auto;
-        margin-bottom: 5rem;
-    }
-
-
-    .form-wrapper .form{
-        float: none;
-        width: 100%;
-        height: auto;
-    }
-
-}
-
-@media (min-width: 769px) and (max-width:1200px){
-    html{
-        font-size: 56.25%;
-    }
-
-
-    .row .text-box h2{
-        font-size: 2.2rem;
-        font-weight: 500;
-    }
+.section-donate{
+    height: 80vh;
 }
 
 
-@media(orientation:landscape) and (max-height: 500px){
-    .header{
-        height: 90vmax ;
-    }
+.section-donate .map-section{
+    float: left;
+    height: 100%;
+    width: 50%;
 }
+
+.section-donate .right-section{
+    float: right;
+    height: 100%;
+    width: 50%;
+    border-left: 2px solid black;
+}
+
+.section-donate .right-section .text-box .description{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-donate .right-section .text-box{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.section-donate .right-section  .text-box  textarea{
+    width: 95%;
+    height: 35vh;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+
+.section-donate .right-section .button .btn{
+    margin-left: 35%;
+    border: 2px solid black;
+}
+
+.section-donate::after{
+    content: " ";
+    display: block;
+    float: clear;
+}
+
+
+.map-section .form label{
+    display: block;
+}
+
+.map-section .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.map-section .form .form-group{
+    margin-bottom: 1.2rem;
+}
+
+
+
+
 
